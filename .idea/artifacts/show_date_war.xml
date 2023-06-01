@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="show-date:war">
+    <output-path>$PROJECT_DIR$/show-date/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>show-date</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="show-date.war">
+      <element id="artifact" artifact-name="show-date:war exploded" />
+    </root>
+  </artifact>
+</component>
